@@ -6,3 +6,9 @@ variable "region" {
   type        = string
   default     = "us-east-2"
 }
+
+variable "instance-name" {
+  description = "Cluster name"
+  type        = string
+  default     = "se-demo-cluster"
+}
